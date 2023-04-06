@@ -1,0 +1,62 @@
+.pagetop{
+   
+    margin-left: 8%;
+    margin-right: 8%;
+    border-bottom: 3px solid lightgrey;
+    
+}
+
+.socialIcon{
+    
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 8%;
+   margin-bottom: 8%;
+}
+
+
+.mailBox{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid lightgray;
+}
+
+.emailIcon{
+    margin-top: 10px;
+    width: 100px;  
+}
+
+.emailTitle{
+    margin: 0px;
+    font-weight: bold;
+   
+}
+
+.whatsappBox{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.whatsappIcon  {
+   margin-top: 10px;
+    width: 100px;
+    
+  }
+
+  .whatsappButton{
+    background-color:#25d366;
+    color: white;
+    border: none;
+    padding: 4px;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
