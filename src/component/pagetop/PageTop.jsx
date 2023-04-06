@@ -11,7 +11,7 @@ export default function PageTop() {
       <div className="socialIcon">
         <div className="mailBox">
           <img className="emailIcon" src="assets/email.png" alt=""/>
-          <p className="emailTitle">email:</p><span style={{fontWeight:'500'}}>contact@xyz.com</span>
+          <p className="emailTitle">email:</p><span style={{fontWeight:'500',cursor:'pointer'}}>contact@xyz.com</span>
          
         </div>
         <div className="whatsappBox">
